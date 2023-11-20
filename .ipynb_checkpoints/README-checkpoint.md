@@ -88,8 +88,9 @@ To interact with your deployed smart contract, complete the following steps:
     > ```text
     > Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
-    > ```
-![images](Execution_Results/Image1.jpg)
+> ```
+
+![images](Execution_Results/image1.jpg)
 
 2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
 
@@ -99,16 +100,16 @@ To interact with your deployed smart contract, complete the following steps:
 
     * Transaction 3: Send 5 ether.
     
-![images](Execution_Results/Image2.jpg)
-![images](Execution_Results/Image3.jpg)
-![images](Execution_Results/Image4.jpg)
+![images](Execution_Results/image2.jpg)
+![images](Execution_Results/image3.jpg)
+![images](Execution_Results/image4.jpg)
 
     > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
 
-![images](Execution_Results/Image5.jpg)
-![images](Execution_Results/Image6.jpg)
+![images](Execution_Results/image5.jpg)
+![images](Execution_Results/image6.jpg)
 
 ---
 
